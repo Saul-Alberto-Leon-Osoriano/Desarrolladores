@@ -5,21 +5,35 @@ body {
 
 header {
     background-color: black;
-    padding: 10px;
+    padding: 40px;
+    display: inline-flex;
+    box-sizing: border-box;
 }
 
-h1 {
+.titulos {
     text-align: center;
-    color: red;
+    color: #5e34fe;
     text-decoration: underline;
+    font-size: 40px;
 }
 
-p { 
+#logodesarrollador {
+    width: 250px;
+}
+
+.textoinicio { 
     text-align: center,justify;
     color: whitesmoke;
     margin: 15px 50px 30px 50px;
     letter-spacing: 1.5px;
     word-spacing: 4px;
+}
+
+.enlaces {
+    font-size: 40px;
+    color:#5e34fe;
+    margin-top: 5%;
+    text-align: center;
 }
 
 article {
@@ -28,22 +42,52 @@ article {
 
 .cajafotografia {
     box-sizing: border-box;
-    width: 350px;
-    height: 350px;
-    margin: 20px 8px 5px 8px;
+    margin: 20px 8px 2% 0%;
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 20px 0 #5e34fe;
+    border-radius: 20px;
 }
 
-#empujearriba {
+#fondomedio {
+    background-color: white;
+}
+
+.divfotografia01 {
     box-sizing: border-box;
-    width: 350px;
-    height: 350px;
-    margin: 20px 8px 5px 80px;
+    width: 25%;
+    height: 20%;
+    margin: 20px 20px 2% 5%;
+    display:inline-block;
+
 }
 
-#empujeabajo {
+.divfotografia02 {
     box-sizing: border-box;
-    width: 350px;
-    height: 350px;
-    margin: 20px 8px 5px 250px;
+    width: 25%;
+    height: 20%;
+    margin: 20px 20px 2% 15%;
+    display:inline-block;
+
 }
 
+.nombres {
+    margin: auto;
+    text-align: center;
+}
+
+#subtitulo {
+    background-color: black;
+    padding: 40px;
+}
+
+.logoproyecto {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.ultimaparte {
+    background-color: black;
+    padding:10px;
+}
