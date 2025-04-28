@@ -1,13 +1,37 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    box-sizing: border-box;
 }
 
 header {
     background-color: black;
-    padding: 40px;
-    display: inline-flex;
+    padding: 10px;
+    display:inline-flex;
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+#logodesarrollador {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+#inicio {
+    text-align: center;
+    color: #5e34fe;
+    text-decoration: underline;
+    font-size: 80px;
+    margin: 10px 70px 10px 30px;
+    width: 100%;
 }
 
 .titulos {
@@ -17,27 +41,39 @@ header {
     font-size: 40px;
 }
 
-#logodesarrollador {
-    width: 250px;
-}
-
-.textoinicio { 
-    text-align: center,justify;
-    color: whitesmoke;
-    margin: 15px 50px 30px 50px;
-    letter-spacing: 1.5px;
-    word-spacing: 4px;
+.enlacesalapagina {
+    font-size: 20px;
+    color:#5e34fe;
+    margin-top: 4%;
+    text-align: center;
+    display:inline;
+    box-sizing: border-box;
+    width: 40%;
 }
 
 .enlaces {
-    font-size: 40px;
     color:#5e34fe;
-    margin-top: 5%;
-    text-align: center;
+    margin: 20px 5%  5%;
+}
+
+.cajaquienessomos {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.textoquienessomos {
+    box-sizing: border-box;
+    width: 50%;
+    height: 10%;
+    padding: 50px 50px 30px 50px;
+    text-align: center,justify;
+    margin-left: 7%;
 }
 
 article {
-    box-sizing: border-box;
+
 }
 
 .cajafotografia {
@@ -51,6 +87,14 @@ article {
 
 #fondomedio {
     background-color: white;
+}
+
+.divfotografia00 {
+    box-sizing: border-box;
+    width: 25%;
+    height: 20%;
+    margin: 20px 20px 2% 5%;
+    display:inline-block;
 }
 
 .divfotografia01 {
